@@ -1,1 +1,0 @@
-import RobotWindow from"https://cyberbotics.com/wwi/R2022b/RobotWindow.js";function sendSpeed(){const o=document.getElementById("speedSlider");o&&window.robotWindow.send("speed:"+o.value)}window.onload=function(){window.robotWindow=new RobotWindow,window.robotWindow.setTitle("Custom HTML robot window");const o=document.getElementById("speedSlider");o&&(o.oninput=sendSpeed)};

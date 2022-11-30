@@ -2,5 +2,5 @@
     path = web
     url = git@github.com:FarmbotSimulator/web.git
 [submodule "robots"]
-    path = public/robots
+    path = robots
     url = git@github.com:FarmbotSimulator/robots.git
